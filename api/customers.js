@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const db = require('../db/database');
+const db = require('../db/database.db');
 
 // GET /customers?limit=10&offset=0
 router.get('/', (req, res) => {
